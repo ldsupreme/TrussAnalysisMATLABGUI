@@ -1,0 +1,27 @@
+How it Works:
+This Matlab GUI is consisted of multiple buttons, field values, and panels that you have to fill in succession for the code to work.
+The program will show you which step needs to filled in first before moving on. Yellow indicates you have to do that section and Green means you've entered necessary information on that section.
+
+1st Step:
+Custom Points or Upload Data
+Pick which one type of data input you want to do.
+
+If Custom Points is selected:
+You will be prompted to select whether you're doing a 2D or 3D analysis.
+After that, you will be able to fill in the rest of the information on each panels.
+The Yellow/Green Markers will tell you which panel to do next. 
+Use the Data tables to see the data you've put in.
+
+If Upload Data is selected:
+You will be prompted to enter the full filename of the data sheet you want to upload. 
+Ensure you include the full name eg: structure_dataq1.xlsx. If you wish to create a new data sheet, please refer to the sheets given as a scaffold.
+The program would automatically determine what dimension analysis to do based on the data sheet given. 
+All the data from the sheet will be displayed and all the plots will be displayed upon clicking Solve button after inserting the file name.
+
+For both options:
+You can display output values by simply clicking Display Values below Solve button. This will display displacement, nodal forces, element forces, stress on the tables.
+
+IMPORTANT:
+There is no reset button. Please ensure that the values you enter in are correct. 
+To make it efficient, do your data sheet in the same way as the data sheets given are done. 
+This will save you time when checking for errors as you don't have to input everything one by one again.
